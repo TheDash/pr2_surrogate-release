@@ -1,0 +1,12 @@
+Source: ros-hydro-pr2-surrogate
+Section: misc
+Priority: extra
+Maintainer: David Gossow <dgossow@willowgarage.com>
+Build-Depends: debhelper (>= 9.0.0), libboost-all-dev, ros-hydro-actionlib, ros-hydro-catkin, ros-hydro-geometry-msgs, ros-hydro-pr2-controllers-msgs, ros-hydro-roscpp, ros-hydro-sensor-msgs
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-hydro-pr2-surrogate
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-hydro-actionlib, ros-hydro-audio-capture, ros-hydro-audio-play, ros-hydro-geometry-msgs, ros-hydro-image-transport-plugins, ros-hydro-oculus-rviz-plugins, ros-hydro-openni-camera, ros-hydro-pr2-apps, ros-hydro-pr2-controller-manager, ros-hydro-pr2-controllers-msgs, ros-hydro-razer-hydra, ros-hydro-robot-mechanism-controllers, ros-hydro-roscpp, ros-hydro-rviz, ros-hydro-sensor-msgs, ros-hydro-tf
+Description: The pr2_surrogate package allows you to make a PR2 into a surrogate for your physical body using the Oculus RIFT HMD and Razer Hydra controller.
