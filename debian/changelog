@@ -1,0 +1,17 @@
+ros-hydro-pr2-surrogate (0.0.4-0quantal) quantal; urgency=high
+
+  * Replaced dependency on rviz plugins
+  * Contributors: TheDash
+
+ -- David Gossow <dgossow@willowgarage.com>  Sun, 07 Sep 2014 04:00:00 -0000
+
+ros-hydro-pr2-surrogate (0.0.3-0quantal) quantal; urgency=high
+
+  * added audio param etc. to desktop/robot.launch
+  * updated README
+  * check return code of dynparam call, removed signed/unsigned warning
+  * Contributors: David Gossow
+
+ -- David Gossow <dgossow@willowgarage.com>  Sun, 07 Sep 2014 04:00:00 -0000
+
+
